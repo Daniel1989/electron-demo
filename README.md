@@ -32,3 +32,9 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+
+## TODO
+1. github action 构建linux失败
+2. github action 构建产物无法安装
+3. 有签名问题，mac可以设置不使用签名，windows可以设置不使用签名
+4. mac有苹果芯片版本问题

@@ -20,9 +20,18 @@
     "build:mac": "electron-vite build && electron-builder --mac",
     "build:linux": "electron-vite build && electron-builder --linux"
   },
+  "build": {
+    "mac": {
+      "identity": null,
+      "sign": false
+    }
+  },
   "dependencies": {
+    "@ant-design/pro-components": "^2.8.2",
+    "@ant-design/pro-table": "^3.18.2",
     "@electron-toolkit/preload": "^3.0.1",
     "@electron-toolkit/utils": "^3.0.0",
+    "antd": "^5.22.3",
     "electron-updater": "^6.1.7"
   },
   "devDependencies": {
